@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import Collapse from 'react-bootstrap/Collapse';
+import Button from 'react-bootstrap/Button';
 
 function Description(props){
 
-return <div className = "caption">{props.caption}</div>
+    const[open, setOpen] = useState(false);
+
+
+return (<>
+<Button 
+variant="light"
+onClick={()=> setOpen(!open)}
+aria-controls ="caption"
+aria-expand={open}
+>Expand</Button>
+<Collapse in={open}>
+<div className = "caption">{props.caption}</div>
+</Collapse>
+</>
+);
 }
 
 
