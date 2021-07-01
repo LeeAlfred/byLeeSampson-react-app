@@ -1,3 +1,5 @@
+
+
 const cartoons = [
 {
   id: 1,
@@ -392,5 +394,6 @@ caption: "Are you coaching or catching-out? One of the most difficult skills to 
 
 
 ]
+
 
 export default cartoons;

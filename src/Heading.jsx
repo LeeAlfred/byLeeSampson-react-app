@@ -6,8 +6,9 @@ function Heading() {
     return (
     // <Jumbotron fluid>
      <div className = "header">
-        <div className = "profile"><img className ="profile-img" src="https://leealfred.github.io/LeeCV/circle-cropped.png"alt="profile picture" /></div>
-        <div><h1 className="heading">byLeeSampson</h1></div>
+     <h1 className = "title">Penguins</h1>
+        <img className ="profile-img" src="https://leealfred.github.io/LeeCV/circle-cropped.png"alt="Lee Sampson" />
+        <h1 className="heading">byLeeSampson</h1>
      </div>
     // </Jumbotron>
     );

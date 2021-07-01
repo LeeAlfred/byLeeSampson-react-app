@@ -12,7 +12,7 @@ return (<>
 variant="light"
 onClick={()=> setOpen(!open)}
 aria-controls ="caption"
-aria-expand={open}
+aria-expanded={open}
 >Expand</Button>
 <Collapse in={open}>
 <div className = "caption">{props.caption}</div>

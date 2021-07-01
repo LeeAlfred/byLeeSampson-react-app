@@ -5,9 +5,9 @@ function Greeting(){
 
     const date = new Date();
     const time = date.getHours();
-    const customStyle ={
-        color: ""
-    };
+    // const customStyle ={
+    //     color: ""
+    // };
 
     let hello;
 
