@@ -8,7 +8,11 @@ const options = {
   buttons: {showAutoplayButton: false,
     showNextButton: false,
     showPrevButton: false,
-    showDownloadButton: false, }
+    showDownloadButton: false, },
+  settings:{
+    disableWheelControls: true,
+
+  }
 }
 
 function Image (props){
